@@ -20,33 +20,33 @@ const Skills = () => {
         <Col sm={12} md={12} lg={12}>
           <div className="skills-list">
             <div className="skill-item">
-              <img src="/Images/js.svg" alt="" className="skill-icon" />
+              <img src="./Images/js.svg" alt="" className="skill-icon" />
               <span className="skill-name">JavaScript</span>
             </div>
             <div className="skill-item">
-              <img src="/Images/react.svg" alt="" className="skill-icon" />
+              <img src="./Images/react.svg" alt="" className="skill-icon" />
               <span className="skill-name">React JS</span>
             </div>
             <div className="skill-item">
-              <img src="/Images/nodejs.svg" alt="" className="skill-icon" />
+              <img src="./Images/nodejs.svg" alt="" className="skill-icon" />
               <span className="skill-name">Node JS</span>
             </div>
             <div className="skill-item">
-              <img src="/Images/mongodb.svg" alt="" className="skill-icon" />
+              <img src="./Images/mongodb.svg" alt="" className="skill-icon" />
               <span className="skill-name">MongoDB</span>
             </div>
 
             <div className="skill-item">
-              <img src="/Images/html5.svg" alt="" className="skill-icon" />
+              <img src="./Images/html5.svg" alt="" className="skill-icon" />
               <span className="skill-name">HTML 5</span>
             </div>
             <div className="skill-item">
-              <img src="/Images/css.svg" alt="" className="skill-icon" />
+              <img src="./Images/css.svg" alt="" className="skill-icon" />
               <span className="skill-name">CSS 3</span>
             </div>
             <div className="skill-item">
               <img
-                src="/Images/gitHub.svg"
+                src="./Images/gitHub.svg"
                 alt=""
                 className="skill-icon"
                 id="github-icon"

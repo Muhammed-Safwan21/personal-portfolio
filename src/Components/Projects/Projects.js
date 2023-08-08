@@ -13,7 +13,7 @@ const ProjectCards = () => {
       title: "Task Manager",
       description:
         "The Task manager App is a simple application that allows users to manage their tasks and create to-do lists. It provides an intuitive user interface for adding, editing, and deleting tasks. The app is built using React, a popular JavaScript library for building user interfaces.",
-      image: "/Images/taskManager.png",
+      image: "./Images/taskManager.png",
       tools: ["React", "HTML", "CSS", "Javascript"],
       github: "https://github.com/Muhammed-Safwan21/task-manager/",
       link: "https://muhammed-safwan21.github.io/task-manager/",
@@ -23,7 +23,7 @@ const ProjectCards = () => {
       title: "Quote Generator",
       description:
         "A simple React application that generates random quotes using the type.fit API.",
-      image: "/Images/quote.png",
+      image: "./Images/quote.png",
       tools: ["React", "HTML", "CSS", "Javascript"],
       github: "https://github.com/Muhammed-Safwan21/quote-generator",
       link: "https://muhammed-safwan21.github.io/quote-generator/",
@@ -33,7 +33,7 @@ const ProjectCards = () => {
       title: "Add to Cart (Shopping List)",
       description:
         "This is a simple shopping list application built with React. It allows you to add items to a list and delete items by clicking on them.",
-      image: "/Images/shoppingList.png",
+      image: "./Images/shoppingList.png",
       tools: ["React", "HTML", "CSS", "Javascript"],
       github: "https://github.com/Muhammed-Safwan21/add-to-cart",
       link: "https://muhammed-safwan21.github.io/add-to-cart/",
@@ -43,7 +43,7 @@ const ProjectCards = () => {
       title: "JavaScript Calculator",
       description:
         "The JavaScript Calculator is a simple web application that allows users to perform arithmetic calculations. The calculator will provide a user interface with buttons for numbers, mathematical operations, and a display area to show the input and output of calculations.",
-      image: "/Images/calculatorjs.png",
+      image: "./Images/calculatorjs.png",
       tools: ["HTML", "CSS", "Javascript"],
       github: "https://github.com/Muhammed-Safwan21/js-calculator",
       link: "https://muhammed-safwan21.github.io/js-calculator/",

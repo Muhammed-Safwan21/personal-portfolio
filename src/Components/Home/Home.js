@@ -73,7 +73,7 @@ function Home() {
           </div>
         </Col>
         <Col md={6} className="image-column">
-          <img className="hero-image" alt="hero" src= "/Images/mypic.jpg" />
+          <img className="hero-image" alt="hero" src= "./Images/mypic.jpg" />
         </Col>
       </Row>
     </Container>

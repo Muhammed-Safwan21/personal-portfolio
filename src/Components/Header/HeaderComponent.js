@@ -1,0 +1,79 @@
+import React, { useContext } from "react";
+import { Link } from "react-scroll";
+import { Navbar, Nav } from "react-bootstrap";
+import { ContextValue } from "../../App";
+import {BsSun, BsMoon} from 'react-icons/bs'
+import "./HeaderComponent.css";
+
+
+const NavBar = () => {
+  const { theme, changeTheme } = useContext(ContextValue);
+
+  return (
+    <div className={theme === false ? "header-dark" : "header-light"}>
+      <Navbar
+        bg="transparent"
+        variant={theme === false ? "dark" : "light"}
+        expand="md"
+        className="navbar-container"
+      >
+        <Navbar.Toggle aria-controls="navbar-nav" />
+         <div className="switch-container">
+         <button onClick={changeTheme} className="theme-toggle-button">
+            {theme === false? <BsMoon className="moon-icon"/> : <BsSun className="sun-icon" /> }
+          </button>
+         </div>
+        <Navbar.Collapse id="navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link
+              as={Link}
+              to="home"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              activeClass="active"
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="skills"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              activeClass="active"
+            >
+              Skills
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="projects"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              activeClass="active"
+            >
+              Projects
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              spy={true}
+              activeClass="active"
+            >
+              Contact
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
+  );
+};
+
+export default NavBar;

@@ -33,35 +33,29 @@
   border: none;
 
 }
-.header-dark .theme-toggle-button .moon-icon{
-  width: 30px;
-  height: 30px;
-  color: white;
-  opacity: 0;
-  animation: slideBottom 1s ease forwards;
-  animation-delay: .1s;
+.header-light .theme-toggle-button .moon-icon{
+  width: 25px;
+  height: 25px;
+  color: #111827;
 }
-.header-dark .theme-toggle-button .moon-icon:hover{
+.header-light .theme-toggle-button .moon-icon:hover{
   transform: scale(1.1) !important ;
 }
 .header-light .theme-toggle-button {
   width: 50px;
-  height: 40px;
+  height: 35px;
   background-color:aliceblue;
   border: none;
 
 }
 
-.header-light .theme-toggle-button .sun-icon {
+.header-dark .theme-toggle-button .sun-icon {
   width: 30px;
   height: 30px;
-  color: #3a0ca3; 
-  opacity: 0;
-  animation: slideBottom 1s ease forwards;
-  animation-delay: .1s;
+  color: yellow; 
 
 }
-.header-light .theme-toggle-button .sun-icon:hover{
+.header-dark .theme-toggle-button .sun-icon:hover{
   transform: scale(1.1) !important ;
 }
 

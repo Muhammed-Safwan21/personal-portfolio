@@ -20,7 +20,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="navbar-nav" />
          <div className="switch-container">
          <button onClick={changeTheme} className="theme-toggle-button">
-            {theme === false? <BsMoon className="moon-icon"/> : <BsSun className="sun-icon" /> }
+         {theme === false ? <BsSun className="sun-icon" /> : <BsMoon className="moon-icon"/> }
           </button>
          </div>
         <Navbar.Collapse id="navbar-nav">
